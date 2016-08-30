@@ -9,8 +9,6 @@ body {
 }
 
 #container {
-    -webkit-appearance: center;
-    -moz-appearance: center;
     appearance: center;
     width: 50%;
     background:white;
@@ -20,8 +18,6 @@ body {
 }
 
 #chat_box {
-    -webkit-appearance: center;
-    -moz-appearance: center;
     appearance: center;
     width:95%;
     font-weight:bold;
@@ -29,10 +25,9 @@ body {
 
 #chat_data {
     width:100%;
-    padding:5px;
     height: auto;
     margin-top: 20px;
-    margin-bottom:5px;
+    margin-bottom:10px;
     border-bottom:1px solid silver;
 }
 
