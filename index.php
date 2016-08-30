@@ -37,6 +37,9 @@ include 'db.php';
     </div>
     <?php
         if(isset($_POST['submit'])) {
+            if($_POST['name'] == 'Chris') {
+                $_POST['msg'] = "Sorry your not invited to conversation";
+            }
         
         $name = $_POST['name'];       
         $message = $_POST['msg'];
