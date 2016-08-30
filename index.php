@@ -23,13 +23,16 @@ include 'db.php';
             }
             setInterval (function() {ajax() },500); 
         </script>
+        <style>#form {width: 100%; text-align:center;}</style>
     </head>
 <body onload="ajax();">
+  <div id="form">
    <form method="post" action="index.php">
         <input type="name" name="name" placeholder="enter name" required="required"/><br />
-        <textarea type="msg" name="msg" cols="30" rows="2" placeholder="What would you like to say?"></textarea><br />
+        <textarea type="msg" name="message" cols="30" rows="2" placeholder="What would you like to say?"></textarea><br />
         <input type="submit" name="submit" value="Send it"/>
     </form>
+   </div>
     <div id="container">
         <div id="chat_box">
             <div id="chat"></div>

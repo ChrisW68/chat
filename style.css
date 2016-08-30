@@ -23,7 +23,7 @@ body {
     -webkit-appearance: center;
     -moz-appearance: center;
     appearance: center;
-    width:90%;
+    width:95%;
     font-weight:bold;
 }
 
@@ -37,23 +37,23 @@ body {
 }
 
 input[type='name']{
-    width:25%;
+    width:auto;
     height:20px;
-    padding:5px;
+    padding:3px;
     border:1px solid grey;
     border-radius:5px;
     margin-bottom:5px;
-    margin-left:37.5%;
 }
 
 input[type='submit']{
-    width:20%;
-    height:40px;
+    width:auto;
+    height:25px;
+    padding: 3px;
     border:1px solid grey;
     border-radius:5px;
-    margin-left:40%;
 }
 
-input[type='msg']{
-    margin: 20px;
+input[type='message']{
+    border:1px solid grey;
+ 
 }
