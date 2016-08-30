@@ -36,7 +36,7 @@ body {
 }
 
 input[type='text']{
-    width:55%;
+    width:55.5%;
     height:20px;
     padding:5px;
     border:1px solid grey;
@@ -54,7 +54,7 @@ input[type='submit']{
     margin-left:40%;
 }
 
-input[type='enter_message']{
+input[type='enter message']{
     width:200%;
     height:80px;
     border: 1px solid green;
