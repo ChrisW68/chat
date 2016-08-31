@@ -44,6 +44,7 @@ input[type='submit']{
     width:auto;
     height:25px;
     padding: 3px;
+    margin-bottom: 5px;
     border:1px solid grey;
     border-radius:5px;
 }
